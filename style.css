@@ -1,0 +1,86 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+#navbar{
+    color: #3E3E3E;
+}
+.nav-item:hover #navbar{
+    text-decoration: underline #3F87F5;
+}
+.header-btn{
+    border-radius: 5px;
+    color: #3F87F5;
+}
+/* our shop*/
+.shop-button{
+    background-color: #3F87F5;
+}
+/* OUR package */
+.package-detail{
+    color: #848199;
+    font-size: 17px;
+}
+.package-icon i{
+    font-size: 12px;
+    color: #5243C2;
+    background-color: #5243c233;
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 12px;
+}
+.package-button{
+    background-color: #f496d27e;
+    color: #5243C2;
+    transition: .3s;
+}
+.packages-premium .package-detail,.packages-premium .package-icon i,.packages-premium .package-button,.packages-premium{
+    background-color: #3F87F5 ;
+    border-radius: 20px;
+    color: #fff;
+}
+.packages-premium .package-icon i{
+    background-color: #6f64c050;
+    color: #fff;
+}
+.packages-premium .package-button{
+    background-color: #fff;
+    color: #5243C2;
+}
+.packages-premium{
+    transform: scale(1.1);
+    background-color: #3F87F5 ;
+    border-radius: 10px;
+}
+.accordion-item.mt-3.border-1.border-dark {
+    border-top: 1px solid;
+}
+.packages-premium::before{
+    position: absolute;
+    content: 'Hot';
+    width: 70px;
+    padding: 5px 0px;
+    top: -18px;
+    right: 5%;
+    text-align: center;
+    background-color: red;
+    border-radius: 20px;
+}
+/* plan  */
+    .plan-detail a{
+        color: #3F87F5;
+        text-decoration: none;
+    }
+    .plan-detail:hover a{
+        text-decoration: underline;
+    }
+/* footer */
+footer{
+    background-color: #0B0D17;
+}
